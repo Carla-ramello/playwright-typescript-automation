@@ -48,4 +48,34 @@ Las evidencias se almacenan en:
 ### 1. Clonar el repositorio
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone https://github.com/Carla-ramello/playwright-typescript-automation.git 
+```
+### 2. Instalar dependencias
+
+```bash
+npm install
+```
+
+### 3. Instalar los navegadores de Playwright
+
+```bash
+npx playwright install
+```
+
+### 4. Ejecutar los tests
+
+```bash
+npx playwright test --project=chromium
+```
+
+### 5. Ejecutar los tests mostrando el navegador
+
+```bash
+npx playwright test --project=chromium --headed
+```
+
+### 6. Visualizar el reporte HTML
+
+```bash
+npx playwright show-report
+```
